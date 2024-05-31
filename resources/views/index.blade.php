@@ -15,8 +15,8 @@ https://templatemo.com/tm-482-strip
 -->
     <!-- load stylesheets -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400">   <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="bootstrap/css/templatemo-style.css">                                   <!-- Templatemo style -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,7 +32,7 @@ https://templatemo.com/tm-482-strip
             <div class="row navbar-row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 navbar-container">
                     
-                    <a href="javascript:void(0)" class="navbar-brand" id="go-to-top">Pusat Kegiatan Belajar Masyarakat</a>
+                    <a href="javascript:void(0)" class="navbar-brand" id="go-to-top">Strip</a>
                     
                     <nav class="navbar navbar-full">
                         
@@ -43,17 +43,23 @@ https://templatemo.com/tm-482-strip
                                     <a class="nav-link" href="#tm-section-1">Tentang</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-2">Lokasi Belajar</a>
+                                    <a class="nav-link" href="#tm-section-2">Lokasi belajar</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-3">Daftar Murid Baru</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Daftar Murid Baru
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#kelulusan">Kelulusan</a>
+                                        <a class="dropdown-item" href="#wawancara">Wawancara</a>
+                                    </div>
                                 </li>
-                                <!--<li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-4">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link external" rel="nofollow" href="https://templatemo.com">TemplateMo</a>
-                                </li>-->
+                                <li class="nav-item profile-item">
+                                <a class="nav-link external" rel="nofollow" href="">
+                                    <i class="fas fa-user-circle"></i>
+                                    <span>Profil</span>
+                                </a>
+                            </li>
                             </ul>
 
                         </div>
@@ -77,21 +83,19 @@ https://templatemo.com/tm-482-strip
                         <div class="tm-white-curve-left-rec"></div>
                         <div class="tm-white-curve-left-circle"></div>
                         <div class="tm-white-curve-text">
-                            <h2 class="tm-section-header blue-text">Perkenalan</h2>
+                            <h2 class="tm-section-header blue-text">Introduction</h2>
                             <p>
-                                PKBM Golden Kids adalah sekolah yang berdedikasi untuk memberikan pendidikan inklusif bagi anak-anak dengan kebutuhan khusus. Kami berkomitmen untuk menciptakan lingkungan belajar yang menyenangkan, aman, dan mendukung bagi setiap anak untuk tumbuh dan berkembang secara optimal.
+                                Strip CSS Template is free <a rel="nofollow" href="https://www.getbootstrap.com" target="_parent">Bootstrap</a> HTML layout for any kind of purpose. You may support us by telling your friends about <b>TemplateMo</b> website. Please <a href="https://templatemo.com/contact">contact us</a> if you have any question.
                             </p>
-                                    
+                            <p>
+                                This template is last updated on 27 July 2020 for main menu with an external link support. You just need to put external in link class for external URLs or web pages.
+                            </p>        
                         </div>                        
                     </div>
 
-                    <div class="tm-flex-center col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-6">
-                        <img src="img/strip-01.jpg" alt="Image" class="img-fluid tm-img">
-                    </div>
-
                     <div class="tm-home-right col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-6">
-                        <h2 class="tm-section-header">Visi Misi</h2>
-                        <p class="thin-font">.............................................................................................................................................................................................................................................................................................</p>
+                        <h2 class="tm-section-header">Our Mission</h2>
+                        <p class="thin-font">We provide 100% free responsive Bootstrap templates for everyone. Feel free to use our templates for your clients or business websites. You may visit <b>TemplateMo</b> for latest and greatest HTML CSS layouts.</p>
                     </div>
                     
                 </section> <!-- #home -->
@@ -108,9 +112,9 @@ https://templatemo.com/tm-482-strip
                         <div class="tm-white-curve-right-rec"></div>
                         
                         <div class="tm-white-curve-text">
-                            <h2 class="tm-section-header red-text">Fasilitas</h2>
-                            <p>................................................................................................................................................................................................................................</p>
-                            <!--<p class="thin-font">Morbi nex felis rutrum, faucibus odio sed, ullamcorper risus. Sed id condimentum nequq, at iaculis ex. Praesent faucibus viverra ante id auctor. Pellentesque at risus ut arcu blandit consectetur.</p>-->    
+                            <h2 class="tm-section-header red-text">Our Services</h2>
+                            <p>Praesent consectetur dictum massa eu tincidunt. Nulla facilisi. Nam tincidunt nex diam eget sollicitudin. Quisque tincidunt ex sit amet metus ultricies, sed lobortis purus finibus.</p>
+                            <p class="thin-font">Morbi nex felis rutrum, faucibus odio sed, ullamcorper risus. Sed id condimentum nequq, at iaculis ex. Praesent faucibus viverra ante id auctor. Pellentesque at risus ut arcu blandit consectetur.</p>    
                         </div>
                         
                     </div>
@@ -123,44 +127,27 @@ https://templatemo.com/tm-482-strip
                             
                         </div>
                         <div class="tm-white-curve-left-circle">
-
+                            
                         </div>
                         <div class="tm-white-curve-text">
-                            <h2 class="tm-section-header gray-text">Kurikulum Sekolah</h2>
-
-                            
-                            <div class="tm-flex-center col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-6">
-                                <img src="img/strip-01.jpg" alt="Image" class="img-fluid tm-img">
-                            </div>
-                            <p class="thin-font">BIMBEL</p>
-                            <p>PKBM Golden Kids adalah sekolah yang berdedikasi untuk memberikan pendidikan inklusif bagi anak-anak dengan kebutuhan khusus. Kami berkomitmen untuk menciptakan lingkungan belajar yang menyenangkan, aman, dan mendukung bagi setiap anak untuk tumbuh dan berkembang secara optimal.</p>
-                            
-                            <div class="tm-flex-center col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-6">
-                                <img src="img/strip-01.jpg" alt="Image" class="img-fluid tm-img">
-                            </div>
-                            <p class="thin-font">BIMBEL</p>
-                            <p>PKBM Golden Kids adalah sekolah yang berdedikasi untuk memberikan pendidikan inklusif bagi anak-anak dengan kebutuhan khusus. Kami berkomitmen untuk menciptakan lingkungan belajar yang menyenangkan, aman, dan mendukung bagi setiap anak untuk tumbuh dan berkembang secara optimal.</p>
-                            
-                            <div class="tm-flex-center col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-6">
-                                <img src="img/strip-01.jpg" alt="Image" class="img-fluid tm-img">
-                            </div>
-                            <p class="thin-font">BIMBEL</p>
-                            <p>PKBM Golden Kids adalah sekolah yang berdedikasi untuk memberikan pendidikan inklusif bagi anak-anak dengan kebutuhan khusus. Kami berkomitmen untuk menciptakan lingkungan belajar yang menyenangkan, aman, dan mendukung bagi setiap anak untuk tumbuh dan berkembang secara optimal.</p>
-                            
-                                
+                            <h2 class="tm-section-header gray-text">About our company</h2>
+                            <p class="thin-font">Praesent consectetur dictum massa eu tincidunt. Nulla facilisi. Nam tincidunt nex diam eget sollicitudin. Quisque tincidunt ex sit amet metus ultricies, sed lobortis purus finibus.</p>
+                            <p>Morbi nex felis rutrum, faucibus odio sed, ullamcorper risus. Sed id condimentum nequq, at iaculis ex. Praesent faucibus viverra ante id auctor. Pellentesque at risus ut arcu blandit consectetur.</p>    
                         </div>
                         
                     </div>
-
+                    <div class="tm-flex-center col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-6">
+                        <img src="img/strip-02.jpg" alt="Image" class="img-fluid tm-img">
+                    </div>
                 </section> <!-- #about -->
 
                 <!-- #contact -->
                 <section id="tm-section-4" class="row tm-section">
-                    <!--<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-6 tm-contact-left">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-6 tm-contact-left">
                         <h2 class="tm-section-header thin-font col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">Send a message</h2>
                         <form action="index.html" method="post" class="contact-form">
                         
-                        
+                        <!-- if you need a working contact form script, please follow https://templatemo.com/contact page -->
                           
                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-6 tm-contact-form-left">
                                 <div class="form-group">
@@ -182,7 +169,7 @@ https://templatemo.com/tm-482-strip
                             </div>
 
                         </form>   
-                    </div>-->
+                    </div>
 
                     <div class="tm-white-curve-right col-xs-12 col-sm-6 col-md-6 col-lg-7 col-xl-6">
                         
@@ -191,19 +178,19 @@ https://templatemo.com/tm-482-strip
                         
                         <div class="tm-white-curve-text">
                             
-                            <h2 class="tm-section-header green-text">kontak informasi</h2>
-                            <!--<p>if you need a working contact form script, please follow our <a rel="nofollow" href="https://templatemo.com/contact" target="_blank">contact page</a>. Thank you for visiting our website.<br>&nbsp;</p>-->
+                            <h2 class="tm-section-header green-text">Contact Us</h2>
+                            <p>if you need a working contact form script, please follow our <a rel="nofollow" href="https://templatemo.com/contact" target="_blank">contact page</a>. Thank you for visiting our website.<br>&nbsp;</p>
 
-                            <h3 class="tm-section-subheader green-text">Alamat</h3>
+                            <h3 class="tm-section-subheader green-text">Our Address</h3>
                             <address>
-                                Jl. Terusan Cisokan No.7, Cihaur Geulis, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40122
+                                160-420 Praesent consectetur, Dictum massa 10620
                             </address>
                             
                             <div class="contact-info-links-container">
                                 <span class="green-text contact-info">
-                                	Tel: <a href="tel:0100200340" class="contact-info-link"> 0821-1121-6600</a></span>
-                                <!--<span class="green-text contact-info">
-                                	Email: <a href="mailto:info@company.com" class="contact-info-link">info@company.com</a></span>-->    
+                                	Tel: <a href="tel:0100200340" class="contact-info-link">090-080-0760</a></span>
+                                <span class="green-text contact-info">
+                                	Email: <a href="mailto:info@company.com" class="contact-info-link">info@company.com</a></span>    
                             </div>
                             
                         </div>                        
@@ -216,7 +203,7 @@ https://templatemo.com/tm-482-strip
                     
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 
-                        <p class="text-xs-center tm-footer-text">PKBM Golden Kids</p>
+                        <p class="text-xs-center tm-footer-text">Copyright &copy; 2020 Company Name - Design: TemplateMo</p>
                         
                     </div>
                     
@@ -228,10 +215,10 @@ https://templatemo.com/tm-482-strip
         
         <!-- load JS files -->
         
-        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+        <script src="bootstrap/js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
         <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h --> 
-        <script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
-        <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
+        <script src="bootstrap/js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
         
         <!-- Templatemo scripts -->
         <script>     
